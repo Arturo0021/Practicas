@@ -4,16 +4,19 @@ import java.io.Serializable;
 
 public class Entidades_Personas implements Serializable{
 
+    // Entidades que usaremos
     public String Nombre;
     public String A_Paterno;
     public String A_Materno;
     public String Email;
     public String Telefono;
 
+    // Constructor Vacio
     public Entidades_Personas() {
 
     }
 
+    // Getters and Setters
     public String getNombre() {
         return Nombre;
     }
